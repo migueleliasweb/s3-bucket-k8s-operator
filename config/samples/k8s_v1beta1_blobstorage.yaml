@@ -1,0 +1,9 @@
+apiVersion: k8s.migueleliasweb.io/v1beta1
+kind: Blobstorage
+metadata:
+  labels:
+    app.kubernetes.io/name: s3-bucket-k8s-operator
+    app.kubernetes.io/managed-by: kustomize
+  name: blobstorage-sample
+spec:
+  # TODO(user): Add fields here
